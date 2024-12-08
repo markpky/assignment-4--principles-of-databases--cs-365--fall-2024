@@ -33,7 +33,7 @@ One or more attributes can be involved when defining a Referential Integrity Con
 
 ###  3. [2.5] What is a Key Constraint?
 
-Replace this content with your answer
+A key constraint restricts what information in an attribute can match between two tuples. Multiple attributes can be used to define a key constraint. 
 
 ### 4. [4.1] What is an Entity/Relationship Model? What purpose does it serve in the process of creating/designing databases?
 

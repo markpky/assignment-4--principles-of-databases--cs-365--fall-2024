@@ -37,7 +37,8 @@ A key constraint restricts what information in an attribute can match between tw
 
 ### 4. [4.1] What is an Entity/Relationship Model? What purpose does it serve in the process of creating/designing databases?
 
-Replace this content with your answer
+An Entity/Relationship Model is a visual representation of the structure of a database. Its purpose is to help give a simplified view of the entity sets, attributes, and relationships
+that will be implemented in the databse. Other notation is used to show primary keys, weak entity sets and relationships, 1:m/m:n/1:1 relationships, etc.   
 
 ### 5. [4.4] What is a Weak Entity Set?
 

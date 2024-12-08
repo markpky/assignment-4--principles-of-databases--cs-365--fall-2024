@@ -26,7 +26,10 @@ Product to make the combined relation.
 
 ### 2. [2.5] What is a Referential Integrity Constraint?
 
-Replace this content with your answer
+A Referential Integrity Constraint is a kind of constraint that says one value that exists somewhere must also exist in another, related place.
+More specifically, a value that exists in an attribute of a tuple in some relation would also exist in an attribute of a tuple in a different 
+relation. 
+One or more attributes can be involved when defining a Referential Integrity Constraint. 
 
 ###  3. [2.5] What is a Key Constraint?
 

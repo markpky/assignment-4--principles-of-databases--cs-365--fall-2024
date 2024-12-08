@@ -42,7 +42,7 @@ that will be implemented in the databse. Other notation is used to show primary 
 
 ### 5. [4.4] What is a Weak Entity Set?
 
-Replace this content with your answer
+A Weak Entity Set is a kind of entity set whose key is has at least one attribute that comes from another entity set. 
 
 ### 6. [5.2.7; 6.3.8] Explain the concepts of Outerjoin, Natural Right Outer Joins, Natural Left Outer Joins, and Full Outer Joins.
 

@@ -49,7 +49,9 @@ Replace this content with your answer
 
 ### 7. [6.6.3] What is the difference between the SQL command `TRANSACTION` and the execution of any statement in SQL?
 
-Replace this content with your answer
+The command `TRANSACTION` allows the database programmer to group multiple statements together into a single transaction. They can then use either the `COMMIT`
+or `ROLLBACK` command to either permenantly apply the changes made to the database by the operations or undo the changes so they don't appear. 
+Statements that are executed without this command act as single transactions. 
 
 ### 8. [8] What is a Virtual View and what are its advantages?
 

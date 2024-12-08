@@ -14,7 +14,15 @@ For this assignment, you will write responses to nine questions based on differe
 
 ### 1. [2.4] What is the difference between a Cartesian Product, a Natural Join, and Theta-Joins?
 
-Replace this content with your answer
+A Cartesian Product takes two sets and combines them by pairing each tuple from one set with the other in every possible combination. 
+If the two sets have an attribute in common, the attribute can be disambiguated by using the the names of the sets before the attribute name. 
+
+A Natural Join joins two sets by pairing tuples with one set to the other only if their attributes they have in common have matching values. 
+The same tuple from one set can be paired with multiple tuples from the other set. 
+Tuples that can't pair with another tuple from the other set are called dangling tuples. 
+
+A Theta-Join is like a fancy version of a Cartesian Product that uses a condition to select certain tuples from the result of a Cartesian
+Product to make the combined relation. 
 
 ### 2. [2.5] What is a Referential Integrity Constraint?
 

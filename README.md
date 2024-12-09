@@ -63,7 +63,9 @@ longer and more complicated.
 
 ### 9. [8.3] What is an *index* and what are its advantages?
 
-Replace this content with your answer
+An index is a kind of data structure that can make searches within a relation faster. It uses a certain kind of binary search tree and is defined by one or more attributes in a 
+relation. Queries where we select tuples from a relation based on the attribute that's used to define the index will generate results faster than those without an index. Speed is important 
+if there are lots of entries to search through and make comparisons on.  
 
 ### 10. Explain the concept of an MVC, or model, view, controller, framework for designing full stack applications
 

@@ -69,7 +69,9 @@ if there are lots of entries to search through and make comparisons on.
 
 ### 10. Explain the concept of an MVC, or model, view, controller, framework for designing full stack applications
 
-Replace this content with your answer
+Full stack applications use a combination of technologies to allow a user to view and interact with a database through the web. The model is the database where information is stored. The 
+view is what the user sees and can interact with. The controller acts as a mediary between the view and controller by doing things like retrieving information from the model to display in 
+the view and taking user input and then turning them into commands to affect the model. 
 
 ---
 

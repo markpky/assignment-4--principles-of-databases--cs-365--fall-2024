@@ -46,7 +46,8 @@ A Weak Entity Set is a kind of entity set whose key is has at least one attribut
 
 ### 6. [5.2.7; 6.3.8] Explain the concepts of Outerjoin, Natural Right Outer Joins, Natural Left Outer Joins, and Full Outer Joins.
 
-Replace this content with your answer
+Outerjoins avoid dangling tuples who don't have a matching pair by padding the unmatched attribute with a NULL. The Full Outer Join use NULL padding for both relations being joined. The Right 
+Outer Join uses NULL padding for the relation on the right side of argument and vice versa for the Left Outer Join.
 
 ### 7. [6.6.3] What is the difference between the SQL command `TRANSACTION` and the execution of any statement in SQL?
 

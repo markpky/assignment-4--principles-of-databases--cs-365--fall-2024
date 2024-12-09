@@ -57,7 +57,9 @@ Statements that are executed without this command act as single transactions.
 
 ### 8. [8] What is a Virtual View and what are its advantages?
 
-Replace this content with your answer
+Virtual Views are expressions disguised as relations. Virtual Views are created with a name and a definition, which is an SQL query. Virtual Views can help make work on a relation easier and 
+quicker to write by wrapping part of what would be a long query into the definition of the Virtual View. Operations done through a Virtual View can be rewritten without it, but are sometimes 
+longer and more complicated. 
 
 ### 9. [8.3] What is an *index* and what are its advantages?
 

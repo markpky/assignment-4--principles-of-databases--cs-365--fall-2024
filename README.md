@@ -15,9 +15,9 @@ For this assignment, you will write responses to nine questions based on differe
 ### 1. [2.4] What is the difference between a Cartesian Product, a Natural Join, and Theta-Joins?
 
 A Cartesian Product takes two sets and combines them by pairing each tuple from one set with the other in every possible combination. 
-If the two sets have an attribute in common, the attribute can be disambiguated by using the the names of the sets before the attribute name. 
+If the two sets have an attribute name in common, the attribute can be disambiguated by using the the names of the sets before the attribute name. 
 
-A Natural Join joins two sets by pairing tuples with one set to the other only if their attributes they have in common have matching values. 
+A Natural Join joins two sets by pairing tuples from one set to the other only if their attributes they have in common have matching values. 
 The same tuple from one set can be paired with multiple tuples from the other set. 
 Tuples that can't pair with another tuple from the other set are called dangling tuples. 
 
@@ -26,8 +26,8 @@ Product to make the combined relation.
 
 ### 2. [2.5] What is a Referential Integrity Constraint?
 
-A Referential Integrity Constraint is a kind of constraint that says one value that exists somewhere must also exist in another, related place.
-More specifically, a value that exists in an attribute of a tuple in some relation would also exist in an attribute of a tuple in a different 
+A Referential Integrity Constraint is a kind of constraint that says one value that exists somewhere must also exist in another related place.
+More specifically, a value that exists in an attribute of a tuple in some relation must also exist in an attribute of a tuple in a different 
 relation. 
 One or more attributes can be involved when defining a Referential Integrity Constraint. 
 
@@ -42,12 +42,13 @@ that will be implemented in the databse. Other notation is used to show primary 
 
 ### 5. [4.4] What is a Weak Entity Set?
 
-A Weak Entity Set is a kind of entity set whose key is has at least one attribute that comes from another entity set. 
+A Weak Entity Set is a kind of entity set whose key has at least one attribute that comes from another entity set. This kind of reliance means that for a tuple to be unique from the rest, 
+there has to be a reference to another entity set.  
 
 ### 6. [5.2.7; 6.3.8] Explain the concepts of Outerjoin, Natural Right Outer Joins, Natural Left Outer Joins, and Full Outer Joins.
 
 Outerjoins avoid dangling tuples who don't have a matching pair by padding the unmatched attribute with a NULL. The Full Outer Join use NULL padding for both relations being joined. The Right 
-Outer Join uses NULL padding for the relation on the right side of argument and vice versa for the Left Outer Join.
+Outer Join uses NULL padding for the relation on the right side of the argument and vice versa for the Left Outer Join.
 
 ### 7. [6.6.3] What is the difference between the SQL command `TRANSACTION` and the execution of any statement in SQL?
 
